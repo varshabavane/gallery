@@ -1,0 +1,21 @@
+.thumbnail{
+    /* height:100px; */
+    box-shadow: 5px 10px 8px #888888;
+}
+
+img {
+    transition: transform 1.4s;
+
+    /* background-color: green; */
+    transition: transform 1.1s;
+    
+    margin: 0 auto;
+  
+}
+img:hover{
+    transform: scale(1.02);
+    /* -ms-transform: scale(1.15); 
+    -webkit-transform: scale(1.15);
+    /* transform: scale(1.1);  */
+  
+}
